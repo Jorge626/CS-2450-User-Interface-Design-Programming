@@ -1,0 +1,9 @@
+.choice-box{
+    -fx-background-color: 
+      transparent,
+      linear-gradient(#f7f7f7, #ededed),
+      linear-gradient(#fbfbfb, #d4d4d4),
+      linear-gradient(#f4f4f4, #cfcfcf);
+   -fx-font-size: 12px;
+   -fx-selection-bar: #388e3c;
+}

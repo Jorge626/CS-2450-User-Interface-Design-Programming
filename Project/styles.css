@@ -1,0 +1,82 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.root {
+  /* affects all nodes */
+  -fx-font-family: "Roboto";
+}
+
+.button, .choice-box {
+  -fx-background-color: #fff;
+}
+
+#title {
+  -fx-padding: 0 0 0 20;
+  -fx-font-size: 50;
+  -fx-text-fill: rgb(255, 255, 255);
+  -fx-font-weight: bold;
+}
+
+#header {
+  /* -fx-background-color: #388e3c; */
+  -fx-padding: 10;
+  -fx-background-color: #FFB500;
+}
+
+/* Pane containing settings */
+#settingsPane {
+  -fx-padding: 10;
+  -fx-spacing: 20;
+}
+
+#scheduleDisplay {
+  -fx-padding: 10;
+  -fx-spacing: 10;
+  -fx-background-color: #fff;
+}
+
+#settingsPane, #settingsPaneVBox {
+  -fx-background-color: #027838;
+  -fx-padding: 10 5 10 10;
+  
+}
+
+.scheduleLabel {
+  -fx-font-size: 48;
+}
+/* Individual labels in settings "Add Class","Class List", etc */
+#first {
+  -fx-padding: 0 0 0 0;
+}
+.settingLabel {
+  -fx-padding: 30 0 0 0;
+  -fx-font-size: 48;
+  -fx-font-weight: bold;
+  -fx-text-fill: #fff;
+}
+
+
+/* #settingsPane > .label {
+  -fx-text-fill: #fff;
+} */
+
+/* individual break displays */
+.break {
+  -fx-background-color: white;
+  -fx-padding: 10;
+}
+
+.dayButton {
+  -fx-padding: 3 0 0 10;
+  -fx-text-fill: white;
+}
+
+.dayButton {
+
+}
+
+.removeButton {
+  -fx-background-color: rgb(255, 110, 110);
+  -fx-text-fill: white;
+}
